@@ -1,5 +1,5 @@
 
-properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/dsreddy22/task7_1.git/'], pipelineTriggers([upstream('task7-1, ')])])
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/dsreddy22/task7_1.git/'], pipelineTriggers([upstream('task7-1')])])
 node {
  	// Clean workspace before doing anything
     deleteDir()
